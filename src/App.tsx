@@ -17,7 +17,7 @@ function App() {
   const fetchRandomQuotes = async () => {
     try {
       const response = await fetch(base_url, {
-        headers: { "X-Api-Ke": api_key },
+        headers: { "X-Api-Key": api_key },
       });
 
       if (!response.ok) {
